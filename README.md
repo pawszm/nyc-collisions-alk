@@ -1,10 +1,31 @@
 # Analiza danych dotyczących wypadków samochodowych w New York
 
+## Celem projektu jest:
+- Wczytanie danych z pliku csv nypd-motor-vehicle-collisions.csv
+- Wyczyszczenie danych
+- transformacja danych
+- Analiza danych zgodnie z tematami przedstawionymi poniżej i przedstawienie wyników oraz wniosków.
+
+## Tematy projektu
+
+- Sprawdzenie danych, opisanie ich i przygotowanie do dalszych analiz.
+- Określenie najniebezpieczniejszych czynników wypadków w każdym z okręgów (boroughs) i sąsiedztw (neighborhood).
+- Ilość zgonów oraz rannych spowodowanych przez szybką jazdę w każdym z okręgów i sąsiedztw.
+- Określenie czterch najczęstrzych czynników, wypadkóœ z podziałem na okręgi, sąsiedztwa oraz ogółem dla całego miasta.
+- Określenie jakie pojazdy najczęściej uczestniczyły w wypadkach.
+- Statystyka ilości wypadków dla każdej z dzielnic.
+- Wnioski.
+
+## Technologia
 Projekt korzysta z języka programowania Python i środowiska jupyter notebook.
 Zalecany system operacyjny w którym będzie uruchaminany projekt dodwolna dystrybucja Linux.
 W folderze jupyter znajduje się dokument ny.ipynb w którym opisuję i przeprowadzam analizę danych.
 Folder jupyter/data zawiera:
-- plik nypd-motor-vehicle-collisions.csv, zawierający dane dotyczące wypadków samochodowych w mieście Nowy Jork
+- plik geo.zip, zawierający przypisania współrzędnych geograficznych kolizji do sąsiedztw miasta Nowy Jork.
+- nyta.zip, zawierający definicje poligonów sąsiedztw miasta Nowy Jork.
+
+**UWAGA:**\
+Repozytorium GitHub nie zawiera pliku nypd-motor-vehicle-collisions.csv z danymi o kolizajch, ponieważ jest zbyt duży.
 
 ## Instalcaj środowiska
 
@@ -47,3 +68,4 @@ $ cd nyc-collisions-alk
 $ . venv/bin/activate
 (venv)$
 ```
+Rozpakować w folderze jupyter/data pliki nyta.zip oraz geo.zip
